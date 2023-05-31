@@ -4,7 +4,7 @@ set -l reset_to_color_dirs (set_color normal -b $tide_pwd_bg_color; set_color $t
 
 set -l unwritable_icon $tide_pwd_icon_unwritable' '
 set -l home_icon $tide_pwd_icon_home' '
-set -l pwd_icon $tide_pwd_icon' '
+set -l pwd_icon $tide_pwd_icon
 
 eval "function _tide_pwd
     if set -l split_pwd (string replace -r '^$HOME' '~' -- \$PWD | string split /)
