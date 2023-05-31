@@ -1,4 +1,4 @@
-set_color -o $tide_pwd_color_anchors | read -l color_anchors
+set_color $tide_pwd_color_anchors | read -l color_anchors
 set_color $tide_pwd_color_truncated_dirs | read -l color_truncated
 set -l reset_to_color_dirs (set_color normal -b $tide_pwd_bg_color; set_color $tide_pwd_color_dirs)
 
