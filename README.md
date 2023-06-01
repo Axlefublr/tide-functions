@@ -1,4 +1,8 @@
-# Huge warning!
+# My personal changes of [tide](https://github.com/IlanCosman/tide) functions
+
+If you ever wonder how my fish shell prompt looks like that, this is how
+
+## Huge warning!
 
 In the [tide plugin](https://github.com/IlanCosman/tide), you're not supposed to change the actual functions to begin with.
 
@@ -28,7 +32,7 @@ So for the most part, I know what I'm doing only up to like 40%
 
 If you don't, feel free to use my modified functions.
 
-# Installation
+## Installation
 
 First of all, `git clone` this repository.
 
@@ -87,6 +91,6 @@ That means you can easily `git reset --hard HEAD -- file` to revert any changes 
 
 > Consider the fact that I may, at any time, use an older version of tide, where my changes will conflict with how the plugin currently works. I don't know if that's the case, but it may be in the future.
 
-# It doesn't work!
+## It doesn't work!
 
 If that's the case, that's on you for trusting some random girl on the internet lmao
