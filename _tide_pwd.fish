@@ -1,9 +1,9 @@
-set_color $tide_pwd_color_anchors | read -l color_anchors
+set_color -o $tide_pwd_color_anchors | read -l color_anchors
 set_color $tide_pwd_color_truncated_dirs | read -l color_truncated
 
 set -l unwritable_icon $tide_pwd_icon_unwritable' '
 set -l home_icon $tide_pwd_icon_home' '
-set -l pwd_icon $tide_pwd_icon
+set -l pwd_icon $tide_pwd_icon' '
 
 eval "function _tide_pwd
 	set -l current_dir (string replace -r '^$HOME' '~' -- \$PWD | string split /)[-1]
