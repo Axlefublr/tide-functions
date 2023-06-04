@@ -12,4 +12,5 @@ function _tide_item_status
     else if not contains character $_tide_left_items
         _tide_print_item status $tide_status_icon
     end
+	 echo -ns ' '
 end
